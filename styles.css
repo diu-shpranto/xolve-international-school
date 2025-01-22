@@ -8,8 +8,8 @@
 /* variables  */
 :root{
     --black: #111111;
-    --white: #FFFFFF;
-    --orange: #FEA301;
+    --white: #ffffff;
+    --orange: #d40bfc;
     --blue: #01ACFD;
     --blue1: #05D4DF;
     --blue2: #5D58EF;
@@ -76,12 +76,12 @@ nav{
 nav > .logo{
     display: flex;
     align-items: center;
-    gap: 11px;
+    gap: 5px;
 }
 
 nav > .logo > .img{
-    width: 62px;
-    height: 62px;
+    width: 55px;
+    height: 55px;
 }
 
 nav > .logo > h1{
@@ -116,4 +116,49 @@ nav .button{
 
 #icon, hr{
     display: none;
+}
+/* banner style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-banner{
+    max-width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner-tittle{
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--black);
+}
+.banner-tittle span:first-child{
+    color: var(--orange);
+}
+
+.banner-tittle span:last-child{
+    color: var(--blue);
+}
+
+.banner-disc{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--black);
+}
+
+/* marquee style */
+.marq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--white);
+    background: #0a0a0aa0;
 }
