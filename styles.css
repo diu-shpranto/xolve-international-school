@@ -401,3 +401,263 @@ footer .div3 h2{
 footer .div3 .flax{
     gap: 10px;
 }
+}
+/* mobile responsive  */
+@media screen and (max-width: 576px) {
+    .container{
+        margin: 0 16px;
+    }
+    footer > .flax{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .button {
+        font-size: 15px;
+    }
+    
+    .display{
+        display: block;
+    }
+    
+    #icon{
+        display: block;
+        font-size: 30px;
+    }
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+      }
+      
+      .menu-icon div {
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+      }
+    nav > .logo > h1, nav > ul, nav .button, .angle-btn, #card1{
+        display: none;
+    }
+
+    nav{
+        padding: 12px 0;
+    }
+    
+    nav > .logo > .img{
+        width: 46px;
+        height: 46px;
+    }
+    
+    hr{
+        display: block;
+        border-bottom: 0.5px solid var(--orange);
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        gap: 20px;        
+    }
+
+    .right-banner{
+        margin-top: 20px;
+        max-width: calc(100% - 16px);
+    }
+
+    .right-banner img{
+        width: 100%;
+    }
+
+    .left-banner{
+        max-width: calc(100% - 16px);
+        gap: 18px;
+        text-align: center;
+    }
+
+    .banner-tittle{
+        max-width: 335px;
+        font-size: 32px;
+        margin: 0 auto;
+    }
+
+    .banner-disc{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .left-banner button{
+        font-size: 16px;
+        padding: 6px 24px;
+    }
+
+    .main-section {
+        padding: 20px 0;
+    }
+
+    .section-tittle {
+        font-size: 26px;
+    }
+
+    .curriculum-container{
+        margin: 40px auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .curriculum-card .disc {
+        margin: 0 auto;
+    }
+
+    .card-container {
+        margin: 40px 0;
+    }
+    
+    .card2{
+        gap: 11px;
+    }
+
+    .card-date {
+        font-size: 9px;
+        padding: 6px 11px;
+        border-radius: 28px;
+        bottom: -3%;
+        left: 10%;
+    }
+    .card-tittle {
+        font-size: 10px;
+        padding: 25px 20px 33px 23px;
+    }
+    footer .div1 h1 {
+        font-size: 36px;
+    }
+    footer .div1 .disc {
+        font-size: 16px;
+    }
+
+    footer .div2 h3 {
+    font-size: 24px;
+    margin-bottom: 26px;
+    }
+    footer .div2 ul a {
+    font-size: 17px;
+    margin-bottom: 16px;
+    }
+    footer .div3 h2 {
+    font-size: 22px;
+    margin-bottom: 28px;
+    }
+
+}
+
+/* Large responsive */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .container{
+        margin: 0 30px;
+    }
+    
+    nav{
+        padding: 12px 0;
+    }
+    
+    nav > .logo > .img{
+        width: 46px;
+        height: 46px;
+    }
+    
+    hr{
+        display: block;
+        border-bottom: 0.5px solid var(--orange);
+    }
+
+    .right-banner{
+        margin-top: 20px;
+        max-width: calc(100% - 16px);
+    }
+
+    .right-banner img{
+        width: 100%;
+    }
+
+    .left-banner{
+        max-width: calc(100% - 16px);
+        gap: 18px;
+        text-align: center;
+    }
+
+    .banner-tittle{
+        max-width: 335px;
+        font-size: 32px;
+        margin: 0 auto;
+    }
+
+    .banner-disc{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .left-banner button{
+        font-size: 16px;
+        padding: 6px 24px;
+    }
+
+    .main-section {
+        padding: 20px 0;
+    }
+    
+
+    .card-container{
+        align-items: center;
+    }
+
+    #card1 {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    #card1-date {
+        font-size: 12px;
+        padding: 13px 19px;
+        left: 8%;
+    }
+    .card1-text {
+        padding: 45px 38px 42px;
+    }
+    .card1-tittle {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    
+    .card-date {
+        font-size: 11px;
+        padding: 6px 11px;
+        border-radius: 28px;
+        bottom: -3%;
+    }
+    .card-tittle {
+        font-size: 12px;
+    }
+
+
+    footer .div1 h1 {
+        font-size: 36px;
+    }
+    footer .div1 .disc {
+        font-size: 18px;
+    }
+    footer .div2 h3 {
+    font-size: 24px;
+    margin-bottom: 26px;
+    }
+    footer .div2 ul a {
+    font-size: 17px;
+    margin-bottom: 16px;
+    }
+    footer .div3 h2 {
+    font-size: 22px;
+    margin-bottom: 28px;
+    }
+
+}
+
+/* Extra large responsive */
+@media screen and (min-width: 992px) and (max-width: 1160px) {
+    .container{
+        margin: 0 30px;
+    }
+}
